@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="fontawesome/fontcss/all.min.css?_v=20230508133628">
+  <link rel="stylesheet" href="css/style.min.css?_v=20230508133628">
+  <title>Contacts</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+             
+      <header class="header">
+  <div class="container">    
+    <div class="header__inner">
+      
+<div class="text-logo">
+  <a href="index.html" class="text-logo__link">
+    <span class="text-logo__text">Solar panels</span>
+  </a>
+</div>
+
+<div class="image-logo">
+  <a href="index.html" class="image-logo__link">
+    <picture><source srcset="logo/solar-logo.webp" type="image/webp"><img class="image-logo__image" src="logo/solar-logo.png" alt="logo"></picture>
+  </a>
+</div>
+
+
+ 
+      <span class="menu-icon fas fa-bars blind-click"></span>
+      <nav class="menu blind-click">
+        <ul class="menu__list blind-click">
+          <li class="menu__list-item blind-click">
+            <a class="menu__list-link" href="company.html">
+              <span class="menu__list-title blind-click">About company</span>
+            </a>
+          </li>
+  
+          <li class="menu__list-item blind-click">
+            <a class="menu__list-link" href="shipping.html">
+              <span class="menu__list-title blind-click">Shipping and payment</span>
+            </a>
+          </li>
+  
+          <li class="menu__list-item blind-click">
+            <a class="menu__list-link" href="service.html">
+              <span class="menu__list-title blind-click">Service</span>
+            </a>
+          </li>
+  
+          <li class="menu__list-item blind-click">           
+            <span class="menu__list-title menu__list-title--active blind-click">Contacts</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <hr class="header__line"> 
+</header>
+
+  
+  
+            
+      <main class="main">
+      
+        <!-- main page content -->
+        <div class="page-contacts">
+        
+          <div class="container">
+            <p>Contacts</p>
+            <p>Contacts</p>
+            <p>Contacts</p>
+            <p>Contacts</p>
+            <p>Contacts</p>
+            <p>Contacts</p>
+            <p>Contacts</p>
+            <p>Contacts</p>
+            <p>Contacts</p>
+            <p>XXXContacts</p>
+          </div>
+          
+          
+<!-- TODO - module contacts -->
+<section id="contacts" class="contacts">         
+  <div class="container">                          
+    <div class="contacts__content">                                                                      
+                
+      <div class="form">
+                 
+        <div class="form__info">                    
+          <h2 class="form__title">Contact Us</h2>                            
+          <p class="form__text">Aliquam accumsan, elit ac</p>                                                   
+        </div>        
+         
+        <form action="#" id="form" class="form__body">  
+          <div class="form__flex-alignment">
+                                
+            <div class="form__item">              
+              <label for="formName" class="form__label">Your name*:</label>
+              <input id="formName" type="text" name="name" class="form__input _req">
+              <div class="form__tooltip">
+                <span class="form__tooltip-text">fill in required fields!</span>
+              </div>
+            </div>
+            <div class="form__item">              
+              <label for="formEmail" class="form__label">Your e-mail*:</label>
+              <input id="formEmail" type="text" name="email" class="form__input _req _email">
+              <div class="form__tooltip">
+                <span class="form__tooltip-text">заполните обязательные поля!</span>
+              </div>
+            </div> 
+                        
+          </div><!-- form__flex-alignment -->
+               
+          <!--
+          <div class="form__item">              
+            <div class="form__label">Вид дубления:</div>
+            <div class="options">
+              <div class="options__item">
+                <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input"> 
+                <label for="formRightHanded" class="options__label"><span>Химическое</span></label>
+              </div>
+              <div class="options__item">
+                <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input"> 
+                <label for="formLeftHanded" class="options__label"><span>Растительное</span></label>
+              </div>
+            </div>
+          </div>
+          -->
+               
+          <div class="form__item"> 
+            <label for="formMessage" class="form__label">Your message:</label>
+            <textarea name="message" id="formMessage" class="form__input"></textarea>
+          </div> 
+               
+          <!--
+          <div class="form__item"> 
+            <div class="form__label">Вид фурнитуры:</div>
+            <select name="age" class="select">
+              <option value="Антик" selected>Антик</option>
+              <option value="Сатин">Сатин</option>
+              <option value="Без фурнитуры">Без фурнитуры</option>
+            </select>
+          </div>
+          <div class="form__item"> 
+            <div class="form__label">Ваш эскиз (фото)</div>
+            <div class="file">
+              <div class="file__item">
+                <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+                <div class="file__button">Эскиз</div>
+              </div> 
+              <div id="formPreview" class="file__preview"></div>
+            </div>                 
+          </div>
+          -->
+               
+          <div class="form__item"> 
+             <div class="checkbox"> 
+                <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+                <label for="formAgreement" class="checkbox__label"><span>I give my consent to the processing of 
+                       data in accordance with <a href="#">the conditions</a>*</span></label>
+             </div>
+          </div>              
+          <button type="submit" class="form__button">send</button>      
+          <!--<span class="form-button-cancel">cancel</span>--> <!-- TODO - кнопка очистки формы: -->                   
+        </form><!--form__body--> 
+                                                                                                 
+      </div><!-- class="form" -->                
+      
+      <div class="mode">
+      
+        <div class="mode__info-box info-box">
+          <div class="container"> 
+            <h3 class="info-box__subtitle">Find Us</h3> 
+            <p class="info-box__text">121 Rock Sreet, 21 Avenue, New York, NY 92103-9000<br></p>
+          </div>
+        </div> 
+        
+        <div class="mode__info-box info-box">
+          <div class="container"> 
+            <h3 class="info-box__subtitle">Hours</h3>
+             <p class="info-box__text">
+               <span style="font-weight: 700;"> Monday – Saturday</span>
+               <br>
+               9am – 7pm
+               <br>
+               <span style="font-weight: 700;">Sunday </span>
+               <br>
+               10am – 6pm
+            </p>
+          </div>         
+        </div>
+        
+        <div class="mode__links-box links-box">
+          <div class="container">
+            <h3 class="links-box__phone-subtitle">Call Us</h3> 
+            <p class="info-box__text">
+              <a class="links-box__phone-link" href=""> +012 345 67 89</a>
+              <br>
+              <a class="links-box__phone-link" href=""> +012 345 67 89</a>
+            </p>
+          </div>
+        </div>
+      
+      </div><!-- mode -->     
+                          
+    </div><!-- contacts__content -->    
+  </div><!-- container --> 
+  
+  
+       
+</section><!-- contacts -->  
+<!-- module contacts -->
+          
+          
+          
+
+           
+        </div>
+        <!-- main page content -->  
+                 
+      </main>
+      
+      <footer class="footer">
+
+  <div class="messengers-box">
+    <span class="messengers-box__base-icon fab fa-facebook-messenger blind-click"></span>
+                 
+    <a class="messengers-box__link first" href="">
+      <span class="messengers-box__icon fab fa-viber blind-click"></span>             
+    </a>
+                   
+    <a class="messengers-box__link second" href="">
+      <span class="messengers-box__icon fab fa-telegram-plane blind-click"></span> 
+    </a>
+                    
+    <a class="messengers-box__link third" href="">
+      <span class="messengers-box__icon fab fa-facebook-messenger blind-click"></span>
+    </a>
+        
+    <a class="messengers-box__link fourth" href="">
+      <span class="messengers-box__icon fa fa-phone-alt blind-click"></span>
+    </a>       
+  </div>
+
+  <div class="container">
+  
+    <div class="footer__content">
+              
+      <div class="footer-social">                                     
+        <a class="footer-social__link" href="">
+          <span class="footer-social__icon fab fa-instagram"></span>            
+        </a>          
+        <a class="footer-social__link" href="">
+          <span class="footer-social__icon fab fa-twitter"></span> 
+        </a>                  
+        <a class="footer-social__link" href="">
+          <span class="footer-social__icon fab fa-facebook-f"></span>
+        </a>        
+      </div> 
+      
+      <div class="footer__logo">
+        <a class="footer__logo-link footer-logo-link" href="index.html">
+          <span class="footer__logo-text">Solar panels</span>
+        </a>           
+      </div>
+                                
+    </div><!-- footer__content --> 
+      
+  </div><!-- container -->      
+</footer>
+  
+    </div>
+    
+    <script src="js/app.min.js?_v=20230508133628"></script> 
+  </body>
+</html>
